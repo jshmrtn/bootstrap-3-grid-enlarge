@@ -1,0 +1,22 @@
+@screen-xl-min: 1366px;
+@screen-xxl-min: 1920px;
+
+@screen-lg-max:                     (@screen-xl-min - 1);
+@screen-xl-max:                 (@screen-xxl-min - 1);
+
+@container-xl-desktop:            ((1306px + @grid-gutter-width));
+@container-xl:                    @container-xl-desktop;
+@container-xxl-desktop:           ((1860px + @grid-gutter-width));
+@container-xxl:                   @container-xxl-desktop;
+
+@media (min-width: @screen-xl-min) {
+	.container {
+		width: @container-xl;
+	}
+}
+
+@media (min-width: @screen-xxl-min) {
+	.container {
+		width: @container-xxl;
+	}
+}

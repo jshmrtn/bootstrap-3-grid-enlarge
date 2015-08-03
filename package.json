@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-3-grid-enlarge",
+  "description": "A set of larger grid options for Bootstrap.",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Jeremy J. Zahner <zahner@joshmartin.ch>"
+  ],
+  "homepage": "https://github.com/jshmrtn/bootstrap-3-grid-enlarge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshmrtn/bootstrap-3-grid-enlarge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jshmrtn/bootstrap-3-grid-enlarge/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "bower": "~1.2.7",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-less": "~0.8.2"
+  }
+}
