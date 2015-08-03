@@ -21,7 +21,7 @@ Use
 `.col-xxl-`   : 1920 x 1080  
 
 ### New Responsive Utilities Classes
-`.visible-xlg`
+`.visible-xl`
 `.visible-xxl`
   
 `.hidden-xl`
