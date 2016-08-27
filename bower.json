@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-3-grid-enlarge",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "authors": [
     "Jeremy J. Zahner <zahner@joshmartin.ch>"
   ],
@@ -8,7 +8,7 @@
   "license": "MIT",
   "main": [
     "./less/big-grid.less",
-    "./scss/big-grid.scss",
+    "./scss/big-grid.scss"
   ],
   "ignore": [
     "**/.*",
