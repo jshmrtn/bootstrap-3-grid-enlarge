@@ -1,12 +1,15 @@
 {
   "name": "bootstrap-3-grid-enlarge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [
     "Jeremy J. Zahner <zahner@joshmartin.ch>"
   ],
   "description": "A set of larger grid options for Bootstrap.",
   "license": "MIT",
-  "main": "./less/big-grid.less",
+  "main": [
+    "./less/big-grid.less",
+    "./scss/big-grid.scss",
+  ],
   "ignore": [
     "**/.*",
     "node_modules",

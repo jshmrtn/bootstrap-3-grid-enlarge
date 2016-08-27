@@ -1,0 +1,375 @@
+// Visibility utilities
+.visible-xs {
+  .responsive-invisibility();
+  @media (max-width: $screen-xs-max) {
+    .responsive-visibility();
+  }
+  &.visible-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-visibility();
+    }
+  }
+}
+.visible-sm {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .responsive-visibility();
+  }
+  &.visible-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-visibility();
+    }
+  }
+}
+.visible-md {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .responsive-visibility();
+  }
+  &.visible-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-visibility();
+    }
+  }
+}
+.visible-lg {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+    .responsive-visibility();
+  }
+  &.visible-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-visibility();
+    }
+  }
+}
+.visible-xl {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+    .responsive-visibility();
+  }
+  &.visible-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-visibility();
+    }
+  }
+}
+.visible-xxl {
+  .responsive-invisibility();
+  &.visible-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-visibility();
+    }
+  }
+  &.visible-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-visibility();
+    }
+  }
+  @media (min-width: $screen-xxl-min){
+    .responsive-visibility();
+  }
+}
+
+// Hidden Utilities
+.hidden-xs {
+  .responsive-visibility();
+  @media (max-width: $screen-xs-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-sm {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-md {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-lg {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-xl {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+    .responsive-invisibility();
+  }
+  &.hidden-xxl {
+    @media (min-width: $screen-xxl-min) {
+      .responsive-invisibility();
+    }
+  }
+}
+.hidden-xxl {
+  .responsive-visibility();
+  &.hidden-xs {
+    @media (max-width: $screen-xs-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-lg {
+    @media (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+      .responsive-invisibility();
+    }
+  }
+  &.hidden-xl {
+    @media (min-width: $screen-xl-min) and (max-width: $screen-xl-max) {
+      .responsive-invisibility();
+    }
+  }
+  @media (min-width: $screen-xxl-min) {
+    .responsive-invisibility();
+  }
+}

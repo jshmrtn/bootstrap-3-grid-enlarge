@@ -11,7 +11,7 @@ The easiest way to use Bootstrap Big Grid is with Bower
 bower install --save bootstrap-3-grid-enlarge
 ```
 
-Make sure to load the main file (less/big-grid.less) after loading bootstrap.
+Make sure to load the main file (less/big-grid.less or scss/big-grid.scss) after loading bootstrap.
 
 *Caution: This dropin needs you to use bootstrap as a bower installed component.*
 
@@ -25,6 +25,6 @@ Use
 ### New Responsive Utilities Classes
 `.visible-xl`
 `.visible-xxl`
-  
+
 `.hidden-xl`
 `.hidden-xxl`
